@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.navigation {
+    height: 56px;
+    margin: auto 2.5em;
+    position: sticky;
+    top: 0;
+}
+
+.nav_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.nav_ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 350;
+}
+
+.nav_ul > li:hover, button:hover {
+    cursor: pointer;
+}
