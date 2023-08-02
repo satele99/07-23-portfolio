@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import MidSection from './components/MidSection';
 import Nav from './components/Navbar';
 import Section from './components/Section';
@@ -10,6 +11,7 @@ function App() {
       <Section/>
       <MidSection/>
       <Section/>
+      <Footer/>
     </div>
   );
 }

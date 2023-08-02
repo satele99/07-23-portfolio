@@ -92,19 +92,23 @@
     top: 5em;
     left: 0;
     right: 0;
-    height: 70px;
+    top: 4.5rem;
+    height: unset;
     width: unset;
     max-width: 100%;
     min-width: 55%;
     margin: 0;
-    padding: 0;
+    padding: 9px;
     border-radius: 10px;
     font-weight: 500;
     transition: visibility 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     align-items: center;
     justify-content: center;
 }
+
 
 .dropdown_content > li:hover {
     cursor: pointer;
