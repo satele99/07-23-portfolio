@@ -2,10 +2,13 @@
 
 
 .navigation {
-    height: 56px;
-    margin: auto 2.5em;
+    height: 70px;
+    margin: 0;
     position: sticky;
     top: 0;
+    border: 2px solid transparent;
+    background-color: #fff;
+    width: 100%;
 }
 
 .nav_content {
@@ -13,6 +16,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 0 2em;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .nav_header {
@@ -20,17 +26,110 @@
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
+    color: #4c7ebf;
 }
 
 .nav_ul {
     text-decoration: none;
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 2em;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 350;
+    font-weight: 500;
+    color: #282828;
+    font-size: 1.125rem;
 }
 
-.nav_ul > li:hover, button:hover {
+.nav_ul > li {
+    transition: 0.5s ease;
+}
+
+.nav_ul > li:hover {
     cursor: pointer;
+    color: #7a6abf;
+}
+
+.nav_btn {
+    border: 2px solid transparent;
+    background-color: #4c7ebf;
+    border-radius: 4px;
+    padding: 9px 24px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+}
+
+.nav_btn:hover {
+    cursor: pointer;
+    background-color: #3e68a0;
+}
+
+.dropdown {
+    display: none;
+}
+
+.icon {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.icon > i {
+    transition: 0.8s ease;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.dropdown_content{
+    list-style: none;
+    position: absolute;
+    background-color: #fff;
+    top: 5em;
+    left: 0;
+    right: 0;
+    height: 70px;
+    width: unset;
+    max-width: 100%;
+    min-width: 55%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: visibility 0.5s ease-in;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_content > li:hover {
+    cursor: pointer;
+    color: #7a6abf;
+}
+
+@media screen and (max-width: 731px){
+    .dropdown {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 2em;
+    }
+    
+    .nav_ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .dropdown_content{
+        display: flex;
+        flex-direction: column;
+        gap: 1.125rem;
+        height: 150px;
+        margin-left: 0;
+    }
 }

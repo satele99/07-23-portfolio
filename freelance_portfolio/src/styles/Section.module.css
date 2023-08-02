@@ -1,0 +1,38 @@
+
+.section {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.action_btn {
+    display: flex;
+    gap: 1.125rem;
+}
+
+.btn {
+    border: 2px solid transparent;
+    background-color: #4c7ebf;
+    border-radius: 4px;
+    padding: 9px 24px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #3e68a0;
+}
