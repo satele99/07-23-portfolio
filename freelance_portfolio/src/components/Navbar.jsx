@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import styles from '../styles/Nav.module.css'
 
 export default function Nav() {
@@ -17,10 +18,10 @@ export default function Nav() {
                     <h2>Amir Ali</h2>
                 </div>
                 <ul className={styles.nav_ul}>
-                    <li>Services</li>
-                    <li>Portfolio</li>
-                    <li>My Blog</li>
-                    <li>About Me</li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><Link to={'/blog'}>My Blog</Link></li>
+                    <li><a>About Me</a></li>
                     <li><button className={styles.nav_btn}>Button</button></li>
                 </ul>
                 <ul className={styles.dropdown}>

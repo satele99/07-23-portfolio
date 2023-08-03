@@ -1,14 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Blog from './pages/Blog';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById('root');
+const root = createRoot(container);
+const router = createBrowserRouter([{
+  path: '/',
+  element: <App/>
+},
+{
+  path: 'blog',
+  element: <Blog/>
+}])
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

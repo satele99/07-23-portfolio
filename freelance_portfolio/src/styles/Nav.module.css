@@ -36,17 +36,21 @@
     display: flex;
     align-items: center;
     gap: 2em;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
+    color: #282828;
+    
+}
+.nav_ul > li > a {
+    text-decoration: none;
     color: #282828;
     font-size: 1.125rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
 }
-
-.nav_ul > li {
+.nav_ul > li > a {
     transition: 0.5s ease;
 }
 
-.nav_ul > li:hover {
+.nav_ul > li > a:hover {
     cursor: pointer;
     color: #7a6abf;
 }

@@ -1,4 +1,5 @@
 import './App.css';
+import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 import MidSection from './components/MidSection';
 import Nav from './components/Navbar';
@@ -10,7 +11,7 @@ function App() {
       <Nav/>
       <Section/>
       <MidSection/>
-      <Section/>
+      <CallToAction/>
       <Footer/>
     </div>
   );

@@ -10,7 +10,34 @@
 
 .content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
+}
+
+.footer_ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+    gap: 1.2rem;
+    color: #282828;
+    font-weight: 500;
+}
+
+.footer_ul > li > a {
+    text-decoration: none;
+    color: #282828;
+}
+
+.footer_ul > li > a {
+    transition: 0.5s ease;
+}
+
+.footer_ul > li > a:hover {
+    cursor: pointer;
+    color: #7a6abf;
 }

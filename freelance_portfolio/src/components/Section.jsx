@@ -9,7 +9,7 @@ export default function Section() {
                 </div>
                 <div className={styles.action_btn}>
                     <button className={styles.btn}>Portfolio</button>
-                    <button className={styles.btn}>Work with Me</button>
+                    <button className={styles.btn_transparent}>Work with Me</button>
                 </div>
             </div>
         </section>
