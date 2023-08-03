@@ -19,18 +19,20 @@ export default function Nav() {
                 <ul className={styles.nav_ul}>
                     <li>Services</li>
                     <li>Portfolio</li>
+                    <li>My Blog</li>
                     <li>About Me</li>
                     <li><button className={styles.nav_btn}>Button</button></li>
                 </ul>
                 <ul className={styles.dropdown}>
                     <li><button className={styles.nav_btn}>Button</button></li>
                     <li className={styles.icon}>
-                        <i class={icon} onClick={()=> {respToggle()}}></i>
+                        <i className={icon} onClick={()=> {respToggle()}}></i>
                     </li>
                 </ul>
                 <ul className={styles.dropdown_content} style={{display: visibility}}>
                     <li>Services</li>
                     <li>Portfolio</li>
+                    <li>My Blog</li>
                     <li>About Me</li>
                 </ul>
             </div>
