@@ -4,8 +4,11 @@ export default function MidSection() {
     return (
         <section className={styles.section}>
             <div className={styles.content}>
-                <div>
-                    <h1>Text, Text, Text, Text</h1>
+                <div className={styles.grid}>
+                    <a>Project</a>
+                    <a>Project</a>
+                    <a>Project</a>
+                    <a>Project</a>
                 </div>
             </div>
         </section>

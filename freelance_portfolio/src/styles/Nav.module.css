@@ -2,9 +2,9 @@
 
 
 .navigation {
-    height: 70px;
+    height: auto;
     margin: 0;
-    position: sticky;
+    position: fixed;
     top: 0;
     border: 2px solid transparent;
     background-color: #fff;

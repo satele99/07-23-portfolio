@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import MidSection from './components/MidSection';
 import Nav from './components/Navbar';
 import Section from './components/Section';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Nav/>
       <Section/>
       <MidSection/>
+      <Skills/>
       <CallToAction/>
       <Footer/>
     </div>

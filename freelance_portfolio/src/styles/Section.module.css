@@ -1,8 +1,15 @@
 
 .section {
-    height: 60%;
+    height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
 }
 
@@ -11,6 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50%;
 }
 
 .action_btn {
@@ -50,3 +58,4 @@
     color: #fff;
     background-color: #3e68a0;
 }
+
