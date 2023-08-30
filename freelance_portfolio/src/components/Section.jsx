@@ -6,10 +6,14 @@ export default function Section() {
             <div className={styles.container}>
                 <div className={styles.content}>
                     <div>
-                        <h1>text that Introduces who i am,
-                            what I do/offer,
-                            and how i can help the customer.
-                        </h1>
+                        <h1 style={{textAlign: 'left'}}>Crafting Digital Experiences</h1>
+                        <p style={{textAlign: 'left'}}> 
+                            As a dedicated freelance web developer, 
+                            I strive to bring ideas to life through elegant 
+                            code and captivating design. Explore my portfolio and 
+                            discover how I can transform your vision into an 
+                            interactive reality.
+                        </p>
                     </div>
                     <div className={styles.action_btn}>
                         <button className={styles.btn}>Portfolio</button>

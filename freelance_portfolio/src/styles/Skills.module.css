@@ -5,3 +5,32 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.listed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin: 1.5rem 0;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skill > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    font-size: 1.5em;
+}
