@@ -7,7 +7,7 @@ export default function Section() {
                 <div className={styles.content}>
                     <div>
                         <h1 style={{textAlign: 'left', fontSize: '2em'}}>Crafting Digital Experiences</h1>
-                        <p style={{textAlign: 'left'}}> 
+                        <p style={{textAlign: 'left', opacity: '.85'}}> 
                             As a dedicated freelance web developer, 
                             I strive to bring ideas to life through elegant 
                             code and captivating design. Explore my portfolio and 
